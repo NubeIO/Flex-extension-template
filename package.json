@@ -8,7 +8,7 @@
     "format": "prettier --write .",
     "lint": "eslint .",
     "preview": "rsbuild preview",
-    "copy:build": "cp -r dist/* PATH_TO_YOUR_FLEX_PROJECT/src/extensions/EXTENSION_NAME",
+    "copy:build": "cp -r dist/* PATH_TO_YOUR_FLEX_PROJECT_EXTENSION_DIRECTORY",
     "dev-watch": "pnpm run build && pnpm run copy:build"
   },
   "dependencies": {
